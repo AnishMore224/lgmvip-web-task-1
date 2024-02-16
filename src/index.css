@@ -5,9 +5,56 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assests/img1.avif");
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 40vw;
+}
+
+#todo{
+ display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 10%;
+}
+#todolist{
+  border-radius:10px;
+  background-color: rgba(113, 110, 110, 0.938);
+}
+input{
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  outline: none;
+}
+button{
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
 }
